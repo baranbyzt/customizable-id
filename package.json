@@ -1,0 +1,20 @@
+{
+  "name": "customizable-id",
+  "version": "1.0.0",
+  "description": "### title",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baranbyzt/customizable-id.git"
+  },
+  "keywords": [],
+  "author": "Baran Beyazıt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baranbyzt/customizable-id/issues"
+  },
+  "homepage": "https://github.com/baranbyzt/customizable-id#readme"
+}
