@@ -10,7 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/baranbyzt/customizable-id.git"
   },
-  "keywords": [],
+  "keywords": [
+    "uuid",
+    "nanoid",
+    "unique",
+    "id",
+    "url",
+    "rfc4122",
+    "custom",
+    "customizable",
+    "random",
+    "İD",
+    "generate",
+    "password"
+  ],
   "author": "Baran Beyazıt",
   "license": "ISC",
   "bugs": {
