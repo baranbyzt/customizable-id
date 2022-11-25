@@ -1,5 +1,5 @@
-// Letters
-export class Letters {
+// customizable
+export class Customizable {
     limit = 10;
 
     lettersSmallArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
@@ -12,11 +12,11 @@ export class Letters {
         , '/', '|', '=', 'Ω', '≈', '√', '<', '>', 'æ', '∂', '∑', '~', '¨', '¥'
         , '₺', '®', '∆', '"', '.', ';', ',', '+', '-', '_', '*', '≥', '≤', 'ƒ'];
 
-    constructor(limit_: number = 10) {
+    constructor(limit_: number = 22) {
         this.limit = limit_
     }
 
-    // sadece küçük harfler
+    // only lowercase letters
     customizableV1(): string {
         let customValue = ''
 
@@ -26,7 +26,7 @@ export class Letters {
         }
         return customValue
     }
-    // sadece büyük harfler
+    // capital letters only
     customizableV2(): string {
         let customValue = ''
 
@@ -36,7 +36,7 @@ export class Letters {
         }
         return customValue
     }
-    // büyük/küçük random karışık
+    // mixed upper or lower case letters
     customizableV3(): string {
         let customValue = ''
 
@@ -49,7 +49,7 @@ export class Letters {
         }
         return customValue
     }
-    // sadece sayılar
+    // only numbers
     customizableV4(): string {
         let customValue = "";
 
@@ -58,7 +58,7 @@ export class Letters {
         }
         return customValue
     }
-    // sadece semboller
+    // only symbols
     customizableV5(): string {
         let customValue = ''
 
@@ -68,7 +68,7 @@ export class Letters {
         }
         return customValue
     }
-    // sayı b/k-harf sembol random karışık
+    // upper & lowercase letters symbols & numbers mixed
     customizableV6(): string {
         let customValue = ''
 
@@ -95,7 +95,7 @@ export class Letters {
         }
         return customValue
     }
-    // sembol - nunbers
+    // symbols and numbers
     customizableV7(): string {
         let customValue = ''
 
@@ -107,7 +107,7 @@ export class Letters {
         }
         return customValue
     }
-    // sembol ve küçük harfler
+    // lowercase letters and symbols 
     customizableV8(): string {
         let customValue = ''
 
@@ -120,7 +120,7 @@ export class Letters {
         }
         return customValue
     }
-    // sembol ve büyük harfler
+    //  upper letters  symbols
     customizableV9(): string {
         let customValue = ''
 
@@ -133,7 +133,7 @@ export class Letters {
         }
         return customValue
     }
-    // number - k.harf
+    // lowercase letters and numbers 
     customizableV10(): string {
         let customValue = ''
 
@@ -145,7 +145,7 @@ export class Letters {
         }
         return customValue
     }
-    // number - b.harf
+    // upper letters  and numbers
     customizableV11(): string {
         let customValue = ''
 
@@ -157,9 +157,8 @@ export class Letters {
         }
         return customValue
     }
-    // ----- 3'lü ler -----
 
-    // sayı küçük-harf sembol random karışık
+    // lowercase letters and numbers and symbols
     customizableV12(): string {
         let customValue = ''
 
@@ -183,7 +182,7 @@ export class Letters {
         return customValue
     }
 
-    // sayı büyük-harf sembol random karışık
+    // lowercase and uppercase letters mixed and symbols
     customizableV13(): string {
         let customValue = ''
 
@@ -207,7 +206,7 @@ export class Letters {
         return customValue
     }
 
-    // küçük-harf büyük-harf sembol random karışık
+    // lowercase uppercase symbol random mixed
     customizableV14(): string {
         let customValue = ''
 
@@ -231,6 +230,7 @@ export class Letters {
         }
         return customValue
     }
+    // capital letters lowercase letters numbers
     customizableV15(): string {
         let customValue = ''
 
@@ -254,3 +254,4 @@ export class Letters {
         return customValue
     }
 }
+
