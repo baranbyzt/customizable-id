@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Letters = void 0;
-// Letters
-class Letters {
-    constructor(limit_ = 10) {
+exports.Customizable = void 0;
+// customizable
+class Customizable {
+    constructor(limit_ = 22) {
         this.limit = 10;
         this.lettersSmallArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
             'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
@@ -14,7 +14,7 @@ class Letters {
             '₺', '®', '∆', '"', '.', ';', ',', '+', '-', '_', '*', '≥', '≤', 'ƒ'];
         this.limit = limit_;
     }
-    // sadece küçük harfler
+    // only lowercase letters
     customizableV1() {
         let customValue = '';
         for (let i = 1; i <= this.limit; i++) {
@@ -22,7 +22,7 @@ class Letters {
         }
         return customValue;
     }
-    // sadece büyük harfler
+    // capital letters only
     customizableV2() {
         let customValue = '';
         for (let i = 1; i <= this.limit; i++) {
@@ -30,7 +30,7 @@ class Letters {
         }
         return customValue;
     }
-    // büyük/küçük random karışık
+    // mixed upper or lower case letters
     customizableV3() {
         let customValue = '';
         for (let i = 1; i <= this.limit; i++) {
@@ -40,7 +40,7 @@ class Letters {
         }
         return customValue;
     }
-    // sadece sayılar
+    // only numbers
     customizableV4() {
         let customValue = "";
         for (let i = 1; i <= this.limit; i++) {
@@ -48,7 +48,7 @@ class Letters {
         }
         return customValue;
     }
-    // sadece semboller
+    // only symbols
     customizableV5() {
         let customValue = '';
         for (let i = 1; i <= this.limit; i++) {
@@ -56,7 +56,7 @@ class Letters {
         }
         return customValue;
     }
-    // sayı b/k-harf sembol random karışık
+    // upper & lowercase letters symbols & numbers mixed
     customizableV6() {
         let customValue = '';
         for (let i = 1; i <= this.limit; i++) {
@@ -79,7 +79,7 @@ class Letters {
         }
         return customValue;
     }
-    // sembol - nunbers
+    // symbols and numbers
     customizableV7() {
         let customValue = '';
         for (let i = 1; i <= this.limit; i++) {
@@ -89,7 +89,7 @@ class Letters {
         }
         return customValue;
     }
-    // sembol ve küçük harfler
+    // lowercase letters and symbols 
     customizableV8() {
         let customValue = '';
         for (let i = 1; i <= this.limit; i++) {
@@ -99,7 +99,7 @@ class Letters {
         }
         return customValue;
     }
-    // sembol ve büyük harfler
+    //  upper letters  symbols
     customizableV9() {
         let customValue = '';
         for (let i = 1; i <= this.limit; i++) {
@@ -109,7 +109,7 @@ class Letters {
         }
         return customValue;
     }
-    // number - k.harf
+    // lowercase letters and numbers 
     customizableV10() {
         let customValue = '';
         for (let i = 1; i <= this.limit; i++) {
@@ -119,7 +119,7 @@ class Letters {
         }
         return customValue;
     }
-    // number - b.harf
+    // upper letters  and numbers
     customizableV11() {
         let customValue = '';
         for (let i = 1; i <= this.limit; i++) {
@@ -129,8 +129,7 @@ class Letters {
         }
         return customValue;
     }
-    // ----- 3'lü ler -----
-    // sayı küçük-harf sembol random karışık
+    // lowercase letters and numbers and symbols
     customizableV12() {
         let customValue = '';
         for (let i = 1; i <= this.limit; i++) {
@@ -150,7 +149,7 @@ class Letters {
         }
         return customValue;
     }
-    // sayı büyük-harf sembol random karışık
+    // lowercase and uppercase letters mixed and symbols
     customizableV13() {
         let customValue = '';
         for (let i = 1; i <= this.limit; i++) {
@@ -170,7 +169,7 @@ class Letters {
         }
         return customValue;
     }
-    // küçük-harf büyük-harf sembol random karışık
+    // lowercase uppercase symbol random mixed
     customizableV14() {
         let customValue = '';
         for (let i = 1; i <= this.limit; i++) {
@@ -190,6 +189,7 @@ class Letters {
         }
         return customValue;
     }
+    // capital letters lowercase letters numbers
     customizableV15() {
         let customValue = '';
         for (let i = 1; i <= this.limit; i++) {
@@ -210,4 +210,4 @@ class Letters {
         return customValue;
     }
 }
-exports.Letters = Letters;
+exports.Customizable = Customizable;
