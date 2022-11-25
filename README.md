@@ -19,9 +19,13 @@ money on various products. Our main goal in this project
 is to develop a web project using redux toolset and
 styling components.
 
-## Try it Now
+## Try it wit Runkit
+https://npm.runkit.com/customizable-id
 
-...
+```bash
+var customizableId = require("customizable-id")
+console.log(customizableId.customV2(29)) 
+```
 
 ## Install
 
