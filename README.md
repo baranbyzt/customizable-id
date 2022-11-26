@@ -2,26 +2,22 @@
 
 # customizable-id
 
-- **Small.** xx bytes (minified and gzipped). No dependencies.
-  [Size Limit] controls the size.
-- **Safe.** It uses hardware random generator. Can be used in clusters.
-- **Short IDs.** It uses a larger alphabet than UUID (`A-Za-z0-9_-`).
-  So ID size was reduced from 36 to 21 symbols.
-- **Portable.** Nano ID was ported
-  to [20 programming languages](./README.md#other-programming-languages).
-
----
+- **Small.** size too small compared to similar, just 50.8 kB
+- **no dependencies** does not contain any dependencies
+- **customizable** This package has a highly customizable structure.
 
 <br/>
+This package is intended to provide a fast and customizable structure for various encryption operations.
+There are 4 different structures for encryption: symbols, numbers, lowercase and uppercase letters. With these, you have an unlimited number of options, since there will be encryption of variable length.
 
-We are working on this project by spending Jeff Bezos'
-money on various products. Our main goal in this project
-is to develop a web project using redux toolset and
-styling components.
+## Try it wit Runkit
 
-## Try it Now
+https://npm.runkit.com/customizable-id
 
-...
+```bash
+var customizableId = require("customizable-id")
+console.log(customizableId.customV2(29))
+```
 
 ## Install
 
